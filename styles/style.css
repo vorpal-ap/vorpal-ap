@@ -1,0 +1,43 @@
+:root {
+    --black: #222831;
+    --grey: #31363F;
+    --blue: #76ABAE;
+    --white: #EEEEEE;
+}
+
+.fancyText {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    height:100%;
+    width: 50%;
+    background-color: var(--grey);
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#right {
+    position: absolute;
+    left: 50%;
+    height:100%;
+    width: 50%;
+    background-color: var(--blue);
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
